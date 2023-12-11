@@ -1,0 +1,137 @@
+* {
+
+  background-color: #2f3135;
+  font-family: Helvetica;
+}
+
+h1 {
+
+  color: fuchsia;
+  text-align: center;
+  padding-top: 200px;
+}
+
+#logo {
+
+  font-size: 40px;
+  color: fuchsia;
+  width: 100%;
+  padding: 10px;
+  float: left;
+  position: absolute;
+}
+
+.content {
+
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.text {
+
+  font-size: 16pt;
+  text-align: center;
+  color: #d3d3d3;
+  padding-top: 15px;
+}
+
+#intro {
+
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.title {
+
+  font-size: 23pt;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-bottom: solid;
+  border-top: solid;
+  border-color: fuchsia;
+  border-width: thick;
+  font-weight: bold;
+}
+
+#button {
+
+  color: white;
+  font-size: 13pt;
+  border-color: fuchsia;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  margin-left: 210px;
+  width: 83px;
+  cursor: pointer;
+  height: 38px;
+  background-color: fuchsia;
+}
+
+#button:hover {
+
+  opacity: 1;
+}
+
+label {
+
+  margin-right: 10px;
+}
+
+#textbox {
+
+  height: 300px;
+  width: 550px;
+  border: solid;
+  border-width: thick;
+  border-radius: 8px;
+  border-color: white;
+  font-size: 14pt;
+  opacity: 0.9;
+  padding: 5px;
+  background-color: #d3d3d3;
+  font-size: 18pt;
+}
+
+#textbox:hover, #textbox:focus {
+
+  opacity: 1;;
+}
+
+#search_form {
+
+  text-align: center;
+  padding-top: 20px;
+}
+
+input[type="file"]::file-selector-button {
+  /* padding: 0.2em 0.4em; */
+  /* background-color: #a29bfe; */
+  /* transition: 1s; */
+
+  color: white;
+  font-size: 13pt;
+  border-color: fuchsia;
+  border: none;
+  border-radius: 8px;
+  opacity: 0.8;
+  width: 110px;
+  cursor: pointer;
+  height: 38px;
+  background-color: fuchsia;
+}
+
+/* input[type="file"]::-ms-browse:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover {
+  background-color: #81ecec;
+  border: 2px solid #00cec9;
+} */
+
+input[type="file"]::file-selector-button:hover {
+  opacity: 1;
+}

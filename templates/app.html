@@ -1,0 +1,20 @@
+<html>
+<head>
+  <h2 id="logo">Sarcasm Detection</h2>
+  <div class="content">
+    <p class="title">Welcome! I'm <em>thrilled</em> you're here. Honestly.</p>
+  </div>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <p class="text" id="intro">Let's detect some sarcasm. Enter some text in the box below and upload the corresponding audio file in .mp4 format. 
+    Then press that fuschia "Enter" button and get your prediction!
+  </p>
+  <form class="text" id="search_form" action="/predict" method="POST" enctype="multipart/form-data">
+    <input type="textarea" id="textbox" name="textbox"><br><br>
+    <!-- <label for="file">Upload file:</label> -->
+    <input id="file" name="file" type="file">
+    <input id="button" type="submit" value="Enter">
+  </form>
+</body>
+</html>
